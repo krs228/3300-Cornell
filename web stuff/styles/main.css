@@ -1,0 +1,161 @@
+
+#header {
+    background: #2d2c2c;
+    background-size: 2em;
+    height:4.5em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    margin: 0em;  
+}
+
+#headerLink{
+    text-decoration:  none;
+    background-color: #ddd;
+  } 
+
+
+#headerLink *{
+    color: #e2e0dc;
+    text-decoration:  none;
+    font-style:none;
+}
+
+#headerLink * :hover{
+    font-style:italic;
+    text-decoration: underline;
+}
+
+
+#logo{
+   background: url("../images/logo.png") no-repeat #2d2c2c;
+   margin-left:1em;
+   background-size: 2em;
+   height:2em;
+   padding-left:2.5em;
+   font-size: 28pt;
+   font-family: Verdana, Arial, sans-serif;
+   -webkit-text-stroke: 1px;
+   text-shadow: #fff 0px 1px 1px;
+}
+
+
+a{
+    color: #00F;
+}
+
+a:visited{
+    color: #00F;
+}
+
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1,h2{
+    font-style: normal;
+}
+
+#content {
+  background: url("../images/contentback.png") repeat-x #FFF;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 37.5em;
+  min-width:40em;
+  text-align: center;
+}
+
+
+body {
+  background: #e2e0dc;
+  margin: 0em;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+
+#footer {
+  background: url("../images/fb.jpg") repeat-x #e2e0dc;
+  height: 6em;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size:14px;
+  color: #333;
+  margin-bottom: 9px;
+  padding-top:4em;
+  text-align: center;
+}
+
+input{
+    margin:.75em;
+}
+
+#emailInput{
+    width:15em;
+}
+
+#priceInput{
+    width:2.5em;
+    text-align: center;
+}
+
+#noteInput{
+    width:30em;
+    text-align: left;
+}
+
+#errors{
+    font-style: italic;
+    color:#F00;
+    
+}
+
+.button
+{
+    font-size:9pt;
+    border:1px solid #CCC;
+    color:#E6E3DC;
+    height:39px;
+    width:95;
+    background: url('/images/greyButton.jpg') no-repeat;
+}
+
+.button:hover
+{
+    cursor:pointer;
+    background: url('/images/greenButton.jpg') no-repeat #457051;
+}
+
+.hiddenJunk{
+    visibility: hidden;
+    height:0em;
+    width:.01em;
+    border: 0em;
+    padding:0em;
+    
+}
+
+.blTitle{
+    font-size:26pt;
+    color:#333;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    font-style: bold;
+    font-family: Verdana;
+}
+
+.blTitleB{
+    font-size:18pt;
+    font-style: italic;
+    color:#AAA;
+    margin-bottom:1em;
+    font-family: Verdana;
+}
+
+
+img{
+position:absolute;
+left: 0px;
+top: 200px;
+}

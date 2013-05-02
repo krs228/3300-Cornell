@@ -1,0 +1,27 @@
+table {
+  text-align: left;
+  border-spacing: 2em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin:1em;
+    width:15em;
+}
+
+.cprice{
+  text-align:center;
+}
+
+th{
+  white-space: nowrap;
+  color:#333;
+  text-decoration: underline;
+  padding:0.75em;
+  text-align: center;
+  
+  
+}
